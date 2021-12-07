@@ -1,0 +1,72 @@
+body{
+    color:rgb(38, 2, 243)
+}
+
+
+
+
+#logo{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+
+    }
+
+#logo:hover{
+    height: 125px;
+}
+
+.imgserie{
+
+    height: 350px;
+    opacity: 75%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.imgserie:hover{
+
+    opacity: 100%;
+}
+
+.paragrafo1{
+    font-size: 1.5em;
+    font-family: 'Rochester', cursive;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: justify;
+    text-indent: 75px;
+
+}
+
+.noticia{
+    background-color: gainsboro;
+    border: 2px solid black;
+    width: 215px;
+    display: inline-block;
+    height: 400px;
+    text-align: center;
+    vertical-align: top;
+    margin-top: auto;
+    margin: 10px;
+    padding: 5px;
+
+}
+
+.noticia:hover{
+    background-color: burlywood;
+    border: 2px solid rgb(245, 7, 7);
+    border-radius: 10px;
+
+    
+}
+
+.cx-serie{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
